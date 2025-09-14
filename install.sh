@@ -10,7 +10,7 @@ REVERSE_PROXY_IP="10.0.9.132"
 
 # Define your CTF domains (all mapped to REVERSE_PROXY_IP)
 HOST_ENTRIES=(
-    "$REVERSE_PROXY_IP   dashboard.ctf.prayag"
+    "$REVERSE_PROXY_IP   ctfd.prayag"
     "$REVERSE_PROXY_IP   welcome.ctf.prayag"
     "$REVERSE_PROXY_IP   webexploit.ctf.prayag"
     "$REVERSE_PROXY_IP   guess.ctf.prayag"
