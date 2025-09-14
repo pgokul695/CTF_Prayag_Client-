@@ -37,10 +37,10 @@ echo "[*] Installing binary exploitation & debugging tools..."
 sudo apt install -y gdb radare2
 
 echo "[*] Installing reverse engineering tools..."
-sudo apt install -y apktool dex2jar
+sudo apt install -y apktool
 
 echo "[*] Installing cryptography tools..."
-sudo apt install -y john hashcat sagemath
+sudo apt install -y john hashcat 
 
 echo "[*] Installing forensics/stego tools..."
 sudo apt install -y steghide foremost ffmpeg exiftool binwalk
@@ -52,7 +52,7 @@ echo "[*] Installing networking tools..."
 sudo apt install -y wireshark tshark tcpdump net-tools socat openvpn
 
 echo "[*] Installing OSINT/misc tools..."
-sudo apt install -y whois dnsutils theharvester
+sudo apt install -y whois dnsutils 
 
 echo "[*] Adding CTF server entries to /etc/hosts..."
 for entry in "${HOST_ENTRIES[@]}"; do
