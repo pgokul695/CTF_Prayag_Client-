@@ -34,7 +34,7 @@ echo "[*] Installing multimedia/audio editor (Audacity)..."
 sudo apt install -y audacity
 
 echo "[*] Installing binary exploitation & debugging tools..."
-sudo apt install -y gdb radare2
+sudo apt install -y gdb 
 
 echo "[*] Installing reverse engineering tools..."
 sudo apt install -y apktool
