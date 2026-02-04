@@ -3,7 +3,7 @@
 
 set -euo pipefail
 
-REVERSE_PROXY_IP="10.0.9.132"
+REVERSE_PROXY_IP="10.183.124.119"
 
 HOSTS=(
     "ctfd.ashwamedha"
